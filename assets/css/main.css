@@ -441,8 +441,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background: linear-gradient(135deg, #4c9e78 0%, #2d6a4f 60%, #458f6e 100%);
-    color: white;
+background: linear-gradient(135deg, var(--pastel-peach) 0%, var(--pastel-lavender) 70%, #b39ddb 100%);    color: black;
 }
 
 .contact-card {
@@ -494,7 +493,7 @@ body {
 }
 
 .contact-section a {
-  color: white;
+  color: black;
   font-weight: 500;
   transition: color 0.2s;
   text-decoration: none;
