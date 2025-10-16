@@ -66,3 +66,33 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const portfolioGrid = document.getElementById("portfolioGrid");
+
+  // List of image filenames — you can add/remove easily
+  const images = [
+    "school21.jpeg", "school13.jpeg", "school24.jpeg", "school15.jpeg",
+    "school16.jpeg", "school2.jpeg", "school14.jpeg", "school4.jpeg",
+    "school11.jpeg", "school12.jpeg", "school8.jpeg", "school5.jpeg",
+    "school3.jpeg", "school17.jpeg", "school18.jpeg", "school19.jpeg",
+    "school20.jpeg", "school22.jpeg", "school23.jpeg", "school1.jpeg",
+    "school9.jpeg", "school10.jpeg", "school7.jpeg"
+  ];
+
+  // Generate dynamic HTML
+  images.forEach(img => {
+    const col = document.createElement("div");
+    col.className = "col-6 col-md-4 col-lg-3";
+    
+
+    const imageElement = document.createElement("img");
+    imageElement.src = `assets/img/${img}`;
+    imageElement.alt = `Portfolio image - ${img}`;
+    imageElement.className = "img-fluid rounded shadow-sm";
+
+    col.appendChild(imageElement);
+    portfolioGrid.appendChild(col);
+  });
+});
