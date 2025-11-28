@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // List of image filenames — you can add/remove easily
     const images = [
+        "school30.jpeg", "school31.jpeg", "school32.jpeg", "school33.jpeg",
         "school21.jpeg", "school13.jpeg", "school24.jpeg", "school15.jpeg",
         "school16.jpeg", "school2.jpeg", "school14.jpeg", "school4.jpeg",
         "school11.jpeg", "school12.jpeg", "school8.jpeg", "school5.jpeg",

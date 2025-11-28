@@ -331,6 +331,15 @@ body {
     color: var(--text-dark);
     padding: 80px 0;
 }
+.impact-content{
+    text-align: center;
+}
+ .center-bullets {
+    /* list-style-position: inside; 
+    padding-left: 0;           
+    text-align: center;          
+    margin: 0 auto;              */
+  }
 .impact-card {
     background: white;
     border-radius: 20px;
