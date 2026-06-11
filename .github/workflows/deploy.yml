@@ -34,8 +34,8 @@ jobs:
 
       - name: Build
         env:
-          # Project page served at https://<user>.github.io/himabindu/
-          BASE_PATH: /himabindu/
+          # Served at the custom domain root: https://himabindurudrapaka.com/
+          BASE_PATH: /
         run: npm run build
 
       - name: Add SPA 404 fallback
