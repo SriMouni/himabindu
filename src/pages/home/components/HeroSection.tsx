@@ -65,15 +65,28 @@ export default function HeroSection() {
               <span className="italic font-light text-primary-500">Rudrapaka</span>
             </h1>
 
-            <p className="text-sm md:text-base text-foreground-400 font-body leading-relaxed max-w-xl mb-2 font-medium tracking-wider uppercase">
+            <p className="text-sm md:text-base text-primary-300 font-body leading-relaxed max-w-xl mb-2 font-medium tracking-wider uppercase">
               Learning Innovator · Child Development Advocate · Preschool Leader
             </p>
 
-            <p className="text-base text-foreground-500 font-body leading-loose max-w-lg mb-10">
-              13+ years building joyful, safe, and inclusive preschool environments
-              across Hyderabad — nurturing 5,000+ young learners through play-based,
-              child-led exploration.
-            </p>
+            <div className="max-w-lg mb-10 space-y-4">
+              <p className="text-base text-foreground-500 font-body leading-loose">
+                13+ years building joyful, safe, and inclusive preschool environments
+                across Hyderabad — nurturing 5,000+ young learners through play-based,
+                child-led exploration.
+              </p>
+              <p className="text-base text-foreground-500 font-body leading-loose">
+                As an educator, edupreneur, and advocate for child-led learning, I shape
+                spaces where children flourish intellectually, emotionally, and socially —
+                grounded in the belief that a child’s earliest years lay the foundation
+                for lifelong success.
+              </p>
+              <p className="text-base text-foreground-500 font-body leading-loose">
+                In close partnership with families and educators, I build supportive
+                learning communities that empower every child to explore with confidence,
+                grow independently, and discover the joy of learning.
+              </p>
+            </div>
 
             {/* CTA row */}
             <div className="flex flex-wrap items-center gap-3 mb-14">
