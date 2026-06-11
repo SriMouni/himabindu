@@ -180,14 +180,14 @@ export default function AwardsSection() {
               </div>
               <div className="p-5 flex-1 flex flex-col">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-label font-semibold text-primary-500">{award.year}</span>
+                  <span className="text-sm font-label font-semibold text-primary-500">{award.year}</span>
                   <span className="w-6 h-6 flex items-center justify-center rounded-full bg-accent-100 text-accent-600">
                     <i className="ri-award-line text-xs" />
                   </span>
                 </div>
-                <h3 className="text-sm font-label font-semibold text-foreground-900 mb-1 leading-snug">{award.title}</h3>
-                <p className="text-xs text-foreground-500 mb-2">{award.org}</p>
-                <p className="text-xs text-foreground-400 leading-relaxed flex-1">{award.desc}</p>
+                <h3 className="text-base md:text-lg font-label font-semibold text-foreground-900 mb-1 leading-snug">{award.title}</h3>
+                <p className="text-sm text-primary-500 mb-2">{award.org}</p>
+                <p className="text-sm md:text-base text-foreground-500 leading-relaxed flex-1">{award.desc}</p>
               </div>
             </div>
           ))}

@@ -11,14 +11,14 @@ const items = [
 
 export default function MarqueeStrip() {
   return (
-    <div className="bg-foreground-950 border-y border-foreground-900 py-4 overflow-x-auto">
-      <div className="flex items-center justify-start md:justify-center gap-3 px-6 min-w-max md:min-w-0 md:flex-wrap">
+    <div className="bg-foreground-950 border-y border-foreground-900 py-4">
+      <div className="flex flex-wrap items-center justify-center gap-3 px-6">
         {items.map((item, i) => (
           <div
             key={i}
-            className="flex items-center gap-2 bg-background-50/8 border border-background-50/12 rounded-full px-4 py-2 shrink-0"
+            className="flex items-center justify-center gap-2 bg-background-50/8 border border-background-50/12 rounded-full px-4 py-2"
           >
-            <i className={`${item.icon} text-primary-400 text-xs`} />
+            <i className={`${item.icon} text-primary-400 text-xs shrink-0`} />
             <span className="text-xs font-label font-medium text-foreground-300 whitespace-nowrap">
               {item.text}
             </span>
