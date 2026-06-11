@@ -73,14 +73,14 @@ export default function Navbar() {
           </button>
 
           {/* CTA */}
-          <a
+          {/* <a
             href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Appointment+with+Himabindu&dates=20250701T100000Z/20250701T103000Z&details=Consultation+Session&location=Online"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary-500 text-background-50 text-sm font-medium hover:bg-primary-600 transition-colors cursor-pointer whitespace-nowrap"
           >
             Book a Call
-          </a>
+          </a> */}
 
           {/* Mobile hamburger */}
           <button

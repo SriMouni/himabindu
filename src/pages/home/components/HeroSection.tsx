@@ -58,14 +58,21 @@ export default function HeroSection() {
               <span className="text-xs font-label font-semibold tracking-wide text-primary-600">
                 Early Childhood Education Visionary
               </span>
+              
             </div>
-
+            <div className="inline-flex items-center gap-2.5 bg-primary-50 border border-primary-100 rounded-full px-4 py-1.5 mx-2 mb-8">
+              <div className="w-1.5 h-1.5 rounded-full bg-primary-500 animate-pulse" />
+              <span className="text-xs font-label font-semibold tracking-wide text-primary-600">
+                13+ Years of Transforming Learning for Children
+              </span>
+              
+            </div>
             <h1 className="font-heading text-5xl md:text-6xl lg:text-[72px] font-medium leading-[1.08] text-foreground-950 mb-6 tracking-tight">
               Himabindu<br />
               <span className="italic font-light text-primary-500">Rudrapaka</span>
             </h1>
 
-            <p className="text-sm md:text-base text-primary-300 font-body leading-relaxed max-w-xl mb-2 font-medium tracking-wider uppercase">
+            <p className="italic text-xs md:text-sm text-primary-300 font-body leading-relaxed max-w-xl mb-2 font-medium tracking-wider uppercase">
               Learning Innovator · Child Development Advocate · Preschool Leader
             </p>
 
@@ -79,11 +86,11 @@ export default function HeroSection() {
                 belief that a child’s earliest years lay the foundation for lifelong
                 success, built with care, imagination, and purpose.
               </p>
-              <p className="text-base text-foreground-500 font-body leading-loose">
+              {/* <p className="text-base text-foreground-500 font-body leading-loose">
                 In close partnership with families and educators, I nurture supportive
                 learning communities that empower every child to explore with confidence,
                 grow independently, and discover the joy of learning.
-              </p>
+              </p> */}
             </div>
 
             {/* CTA row */}

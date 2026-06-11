@@ -85,16 +85,18 @@ function TimelineCard({ m, i }: { m: typeof milestones[0]; i: number }) {
     >
       {/* Timeline node — centered */}
       <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 z-20 items-center justify-center">
-        <div className={`w-9 h-9 rounded-full border-2 flex items-center justify-center transition-all duration-500 ${
-          isVisible ? "bg-background-50 border-primary-200 scale-100" : "bg-background-100 border-background-200 scale-75"
+        <div className={`w-11 h-11 rounded-full border-4 border-background-50 shadow-md flex items-center justify-center transition-all duration-500 ${
+          isVisible ? "bg-primary-500 scale-100" : "bg-background-300 scale-75"
         }`}>
-          <span className="text-xs font-heading font-bold text-primary-500">{i + 1}</span>
+          <span className="text-lg font-heading font-bold text-background-50">{i + 1}</span>
         </div>
       </div>
 
       {/* Mobile dot */}
       <div className="md:hidden flex flex-col items-center mr-4">
-        <div className="w-3 h-3 rounded-full bg-primary-500 mt-1 shrink-0" />
+        <div className="w-7 h-7 rounded-full bg-primary-500 mt-1 shrink-0 ring-4 ring-primary-100 flex items-center justify-center">
+          <span className="text-sm font-heading font-bold text-background-50">{i + 1}</span>
+        </div>
         {i < milestones.length - 1 && (
           <div className="w-px flex-1 bg-background-300 mt-2" />
         )}
@@ -111,7 +113,7 @@ function TimelineCard({ m, i }: { m: typeof milestones[0]; i: number }) {
           />
 
           <div className="flex flex-wrap items-center gap-3 mb-3">
-            <span className="font-heading text-2xl font-semibold text-foreground-950">{m.year}</span>
+            <span className="font-heading text-2xl md:text-3xl font-bold text-primary-600">{m.year}</span>
             <span className={`text-xs font-label font-medium px-2.5 py-0.5 rounded-full ${tagColors[m.tag]}`}>
               {m.tag}
             </span>
