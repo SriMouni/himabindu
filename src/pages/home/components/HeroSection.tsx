@@ -71,18 +71,16 @@ export default function HeroSection() {
 
             <div className="max-w-lg mb-10 space-y-4">
               <p className="text-base text-foreground-500 font-body leading-loose">
-                13+ years building joyful, safe, and inclusive preschool environments
-                across Hyderabad — nurturing 5,000+ young learners through play-based,
-                child-led exploration.
+                An early childhood education professional, visionary edupreneur, and
+                thought leader, I’m devoted to child-led learning and reimagining the
+                future of early education. Across more than a decade and a half, I’ve
+                created joyful, safe, and inclusive spaces where children flourish
+                intellectually, emotionally, socially, and creatively — guided by the
+                belief that a child’s earliest years lay the foundation for lifelong
+                success, built with care, imagination, and purpose.
               </p>
               <p className="text-base text-foreground-500 font-body leading-loose">
-                As an educator, edupreneur, and advocate for child-led learning, I shape
-                spaces where children flourish intellectually, emotionally, and socially —
-                grounded in the belief that a child’s earliest years lay the foundation
-                for lifelong success.
-              </p>
-              <p className="text-base text-foreground-500 font-body leading-loose">
-                In close partnership with families and educators, I build supportive
+                In close partnership with families and educators, I nurture supportive
                 learning communities that empower every child to explore with confidence,
                 grow independently, and discover the joy of learning.
               </p>
