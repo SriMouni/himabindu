@@ -1,6 +1,6 @@
 import { img } from "@/assets/images";
 import { useState, FormEvent } from "react";
-import { Link } from "react-router-dom";
+import SiteFooter from "@/components/SiteFooter";
 
 type Status = "idle" | "sending" | "success" | "error";
 
@@ -191,62 +191,7 @@ export default function ContactSection() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-background-100 border-t border-background-200 py-10">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <p className="font-heading text-xl font-semibold text-foreground-950 mb-1">
-                Himabindu<span className="text-primary-500"> Rudrapaka</span>
-              </p>
-              <p className="text-xs text-foreground-400 font-label">
-                Nurturing young minds · Building bright futures
-              </p>
-            </div>
-
-            <div className="flex items-center gap-5">
-              <a
-                href="mailto:himabindurudrapaka@gmail.com"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-background-200 text-foreground-600 hover:bg-primary-100 hover:text-primary-600 transition-colors cursor-pointer"
-              >
-                <i className="ri-mail-line text-sm" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/himabindu-rudrapaka-8b4026316/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-background-200 text-foreground-600 hover:bg-accent-100 hover:text-accent-600 transition-colors cursor-pointer"
-              >
-                <i className="ri-linkedin-box-line text-sm" />
-              </a>
-              <a
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Appointment+with+Himabindu&dates=20250701T100000Z/20250701T103000Z&details=Consultation+Session&location=Online"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-background-200 text-foreground-600 hover:bg-secondary-100 hover:text-secondary-600 transition-colors cursor-pointer"
-              >
-                <i className="ri-calendar-line text-sm" />
-              </a>
-            </div>
-
-            <p className="text-xs text-foreground-400 font-label">
-              &copy; 2026 Himabindu Rudrapaka. All rights reserved.
-            </p>
-          </div>
-
-          <nav className="mt-8 pt-6 border-t border-background-200 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-            <Link to="/himabindu-rudrapaka" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
-              About Himabindu Rudrapaka
-            </Link>
-            <Link to="/schools-managed-by-himabindu-rudrapaka" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
-              Schools Managed
-            </Link>
-            <Link to="/blog" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
-              Blog
-            </Link>
-          </nav>
-        </div>
-      </footer>
+      <SiteFooter />
     </>
   );
 }

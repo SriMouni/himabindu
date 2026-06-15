@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { posts } from "@/data/blog";
 import { seoForPath } from "@/seo/resolve";
 import Seo from "@/components/Seo";
-import PageNav from "@/components/PageNav";
+import Navbar from "@/pages/home/components/Navbar";
 import SiteFooter from "@/components/SiteFooter";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -12,7 +12,7 @@ export default function BlogIndex() {
   return (
     <div className="bg-background-50 text-foreground-900 min-h-screen">
       <Seo title={seo.title} description={seo.description} canonical={seo.canonical} />
-      <PageNav />
+      <Navbar />
 
       <main className="max-w-5xl mx-auto px-6 md:px-12 py-10">
         <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }]} />

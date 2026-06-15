@@ -5,7 +5,7 @@ import { schools } from "@/data/schools";
 import { SITE } from "@/seo/site";
 import { seoForPath } from "@/seo/resolve";
 import Seo from "@/components/Seo";
-import PageNav from "@/components/PageNav";
+import Navbar from "@/pages/home/components/Navbar";
 import SiteFooter from "@/components/SiteFooter";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -34,7 +34,7 @@ export default function ProfilePage() {
   return (
     <div className="bg-background-50 text-foreground-900 min-h-screen font-sans">
       <Seo title={seo.title} description={seo.description} canonical={seo.canonical} />
-      <PageNav />
+      <Navbar />
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-background-50">
