@@ -1,3 +1,5 @@
+import Seo from "@/components/Seo";
+import { seoForPath } from "@/seo/resolve";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import MarqueeStrip from "./components/MarqueeStrip";
@@ -13,8 +15,10 @@ import PortfolioSection from "./components/PortfolioSection";
 import ContactSection from "./components/ContactSection";
 
 export default function Home() {
+  const seo = seoForPath("/");
   return (
     <div className="bg-background-50 font-sans">
+      <Seo title={seo.title} description={seo.description} canonical={seo.canonical} />
       <Navbar />
       <HeroSection />
       <MarqueeStrip />

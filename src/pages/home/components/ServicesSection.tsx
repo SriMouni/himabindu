@@ -49,7 +49,7 @@ export default function ServicesSection() {
           </div>
           <div className="flex-1 flex items-center">
             <p className="text-foreground-500 text-base leading-loose">
-              I support schools, educators, and parents through comprehensive consulting and training programs — drawing on 13+ years of hands-on early childhood education leadership.
+              I support schools, educators, and parents through comprehensive consulting and training programs — drawing on 15+ years of hands-on early childhood education leadership.
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from "react";
 import { useCountUp } from "@/hooks/useCountUp";
 
 const statsData = [
-  { end: 13, suffix: "+", label: "Years in Early Childhood Leadership", icon: "ri-time-line", accent: "primary" },
+  { end: 15, suffix: "+", label: "Years in Early Childhood Leadership", icon: "ri-time-line", accent: "primary" },
   { end: 6,  suffix: "",  label: "Schools Established",                 icon: "ri-building-line", accent: "accent" },
   { end: 5000, suffix: "+", label: "Children Nurtured",                 icon: "ri-heart-3-line",  accent: "secondary" },
   { end: 80, suffix: "+", label: "Educators Mentored",                  icon: "ri-user-star-line", accent: "primary" },

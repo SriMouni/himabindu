@@ -63,7 +63,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2.5 bg-primary-50 border border-primary-100 rounded-full px-4 py-1.5 mx-2 mb-8">
               <div className="w-1.5 h-1.5 rounded-full bg-primary-500 animate-pulse" />
               <span className="text-xs font-label font-semibold tracking-wide text-primary-600">
-                13+ Years of Transforming Learning for Children
+                15+ Years of Transforming Learning for Children
               </span>
               
             </div>

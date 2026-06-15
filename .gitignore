@@ -27,3 +27,6 @@ auto-imports.d.ts
 
 # vite cache
 .vite/
+
+# ssr build
+out-ssr/

@@ -16,7 +16,15 @@ function applyTheme(theme: Theme) {
 
 /** Light/dark theme with persistence + system-preference fallback. */
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(getInitialTheme);
+  // Start with a deterministic value so server-rendered HTML and the first
+  // client render match (avoids hydration mismatch). The real theme is read
+  // from storage/system right after mount; the inline <head> script has
+  // already applied the correct class for first paint.
+  const [theme, setTheme] = useState<Theme>("light");
+
+  useEffect(() => {
+    setTheme(getInitialTheme());
+  }, []);
 
   useEffect(() => {
     applyTheme(theme);

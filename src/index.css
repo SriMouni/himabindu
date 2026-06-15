@@ -131,6 +131,44 @@ body {
 
 .font-heading { font-family: var(--font-heading); }
 
+/* ── Blog (markdown) typography ── */
+.blog-content { color: oklch(var(--foreground-700)); line-height: 1.75; }
+.blog-content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: oklch(var(--foreground-950));
+  margin: 2rem 0 0.75rem;
+}
+.blog-content h3 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: oklch(var(--foreground-950));
+  margin: 1.5rem 0 0.5rem;
+}
+.blog-content p { margin: 0 0 1rem; }
+.blog-content ul, .blog-content ol { margin: 0 0 1.25rem; padding-left: 1.4rem; }
+.blog-content ul { list-style: disc; }
+.blog-content ol { list-style: decimal; }
+.blog-content li { margin: 0.35rem 0; }
+.blog-content a { color: oklch(var(--primary-600)); text-decoration: underline; }
+.blog-content a:hover { color: oklch(var(--primary-700)); }
+.blog-content strong { font-weight: 700; color: oklch(var(--foreground-900)); }
+.blog-content blockquote {
+  border-left: 3px solid oklch(var(--primary-400));
+  padding-left: 1rem;
+  color: oklch(var(--foreground-500));
+  font-style: italic;
+  margin: 0 0 1.25rem;
+}
+.blog-content code {
+  background: oklch(var(--background-200));
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.3rem;
+  font-size: 0.9em;
+}
+
 /* ── Fade-in-up animation ── */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(28px); }

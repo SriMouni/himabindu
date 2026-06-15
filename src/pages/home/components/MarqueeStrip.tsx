@@ -1,5 +1,5 @@
 const items = [
-  { icon: "ri-time-line",           text: "13+ Years Experience" },
+  { icon: "ri-time-line",           text: "15+ Years Experience" },
   { icon: "ri-building-line",       text: "6 Schools Established" },
   { icon: "ri-heart-3-line",        text: "5000+ Children Nurtured" },
   { icon: "ri-trophy-line",         text: "12+ Awards" },
