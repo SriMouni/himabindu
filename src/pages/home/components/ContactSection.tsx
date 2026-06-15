@@ -235,13 +235,13 @@ export default function ContactSection() {
           </div>
 
           <nav className="mt-8 pt-6 border-t border-background-200 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-            <Link to="/himabindu-rudrapaka" className="text-foreground-600 hover:text-primary-600 transition-colors">
+            <Link to="/himabindu-rudrapaka" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
               About Himabindu Rudrapaka
             </Link>
-            <Link to="/schools-managed-by-himabindu-rudrapaka" className="text-foreground-600 hover:text-primary-600 transition-colors">
+            <Link to="/schools-managed-by-himabindu-rudrapaka" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
               Schools Managed
             </Link>
-            <Link to="/blog" className="text-foreground-600 hover:text-primary-600 transition-colors">
+            <Link to="/blog" target="_blank" rel="noopener noreferrer" className="text-foreground-600 hover:text-primary-600 transition-colors">
               Blog
             </Link>
           </nav>

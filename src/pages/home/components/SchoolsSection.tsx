@@ -120,6 +120,8 @@ export default function SchoolsSection() {
                 {slugFor[school.title] && (
                   <Link
                     to={`/schools/${slugFor[school.title]}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm font-label font-medium text-primary-600 hover:text-primary-700 transition-colors"
                   >
                     View school details <i className="ri-arrow-right-line" />

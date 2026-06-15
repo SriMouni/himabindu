@@ -31,6 +31,8 @@ export default function InsightsSection() {
           </div>
           <Link
             to="/blog"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-background-300 text-foreground-700 text-sm font-medium hover:border-primary-300 hover:text-primary-600 transition-colors whitespace-nowrap"
           >
             View all articles <i className="ri-arrow-right-line" />
@@ -43,6 +45,8 @@ export default function InsightsSection() {
             <Link
               key={p.slug}
               to={`/blog/${p.slug}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group bg-background-50 rounded-3xl border border-background-200 p-6 flex flex-col hover:border-primary-200 transition-colors"
             >
               <div className="flex flex-wrap gap-2 mb-4">
