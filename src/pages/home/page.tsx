@@ -12,6 +12,7 @@ import SkillsSection from "./components/SkillsSection";
 import SchoolsSection from "./components/SchoolsSection";
 import ServicesSection from "./components/ServicesSection";
 import PortfolioSection from "./components/PortfolioSection";
+import InsightsSection from "./components/InsightsSection";
 import ContactSection from "./components/ContactSection";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <SchoolsSection />
       <ServicesSection />
       <PortfolioSection />
+      <InsightsSection />
       <ContactSection />
     </div>
   );

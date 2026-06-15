@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const schools = [
   {
     title: "FirstCry Intellitots Nizampet",
@@ -40,6 +42,13 @@ const schools = [
     tags: ["Ages 1–8", "Preschool", "Day Care"],
   },
 ];
+
+const slugFor: Record<string, string> = {
+  "FirstCry Intellitots Nizampet": "firstcry-intellitots-nizampet",
+  "FirstCry Intellitots Botanical Gardens": "firstcry-intellitots-botanical-garden",
+  "FirstCry Intellitots HMT Hills": "firstcry-intellitots-hmt-hills",
+  "FirstCry Intellitots Mayuri Nagar": "firstcry-intellitots-mayuri-nagar",
+};
 
 export default function SchoolsSection() {
   return (
@@ -98,7 +107,7 @@ export default function SchoolsSection() {
                   </span>
                 </div>
                 <p className="text-sm text-foreground-600 leading-relaxed mb-4">{school.desc}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {school.tags.map((tag) => (
                     <span
                       key={tag}
@@ -108,6 +117,14 @@ export default function SchoolsSection() {
                     </span>
                   ))}
                 </div>
+                {slugFor[school.title] && (
+                  <Link
+                    to={`/schools/${slugFor[school.title]}`}
+                    className="inline-flex items-center gap-1.5 text-sm font-label font-medium text-primary-600 hover:text-primary-700 transition-colors"
+                  >
+                    View school details <i className="ri-arrow-right-line" />
+                  </Link>
+                )}
               </div>
             </div>
           ))}
