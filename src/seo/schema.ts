@@ -17,7 +17,7 @@ export function personSchema() {
     jobTitle: SITE.jobTitle,
     description: SITE.description,
     url: abs("/himabindu-rudrapaka"),
-    image: abs(SITE.defaultImage),
+    image: abs(SITE.personImage),
     email: `mailto:${SITE.email}`,
     worksFor: { "@id": ORG_ID },
     founder: { "@id": ORG_ID },

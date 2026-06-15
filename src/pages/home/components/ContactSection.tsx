@@ -229,7 +229,7 @@ export default function ContactSection() {
             </div>
 
             <p className="text-xs text-foreground-400 font-label">
-              &copy; 2025 Himabindu Rudrapaka. All rights reserved.
+              &copy; 2026 Himabindu Rudrapaka. All rights reserved.
             </p>
           </div>
         </div>

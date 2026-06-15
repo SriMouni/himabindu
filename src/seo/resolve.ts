@@ -34,7 +34,7 @@ function homeSeo(): SeoMeta {
     description: SITE.description,
     canonical: "/",
     ogType: "website",
-    image: SITE.defaultImage,
+    image: SITE.personImage,
     priority: 1.0,
     jsonLd: graph(websiteSchema(), organizationSchema(), personSchema()),
   };
@@ -46,7 +46,7 @@ function profileSeo(): SeoMeta {
     description: profile.bioShort,
     canonical: "/himabindu-rudrapaka",
     ogType: "profile",
-    image: SITE.defaultImage,
+    image: SITE.personImage,
     priority: 0.9,
     jsonLd: graph(
       personSchema(),

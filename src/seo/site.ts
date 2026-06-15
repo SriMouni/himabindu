@@ -8,6 +8,7 @@ export const SITE = {
     "Himabindu Rudrapaka is an early childhood education leader and preschool entrepreneur who manages multiple FirstCry Intellitots Preschool & Daycare centers across Hyderabad, India.",
   locale: "en_IN",
   defaultImage: "/favicon-hr.png",
+  personImage: "/himabindu-rudrapaka.jpg",
   twitter: "", // add @handle if available
   organization: "Himabindu Rudrapaka Educational Group",
   founder: "Himabindu Rudrapaka",
@@ -18,6 +19,7 @@ export const SITE = {
   country: "IN",
   socials: [
     "https://www.linkedin.com/in/himabindu-rudrapaka-8b4026316",
+    "https://www.instagram.com/himabindurudrapaka",
   ],
 } as const;
 
