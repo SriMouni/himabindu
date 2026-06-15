@@ -41,6 +41,10 @@ export const schools: School[] = [
       { q: "What age groups does FirstCry Intellitots Nizampet accept?", a: "The centre welcomes children aged 1 to 8 across playgroup, nursery, kindergarten, and daycare programs." },
       { q: "Does the Nizampet centre offer daycare?", a: "Yes. Full-day and half-day daycare is available with meals, naps, and supervised learning activities." },
       { q: "Who manages FirstCry Intellitots Nizampet?", a: "The centre is managed by Himabindu Rudrapaka, an early childhood education leader with 15+ years of experience." },
+      { q: "What are the timings at FirstCry Intellitots Nizampet?", a: "The centre offers morning preschool sessions along with half-day and full-day daycare options. Exact timings vary — please contact the centre for the current schedule." },
+      { q: "How do I apply for admission?", a: "Send an admission enquiry from this page, schedule a visit, choose a program, and the team will guide you through enrolment." },
+      { q: "What are the fees?", a: "Fees depend on the program (playgroup, preschool, or daycare). Please contact the centre for the current fee structure." },
+      { q: "What is the child-to-teacher ratio?", a: "The centre maintains low child-to-teacher ratios so every child receives individual attention in a safe, supervised environment." },
     ],
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12504.58140592084!2d78.3855293!3d17.5132144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9206d519497f%3A0x81b062c9c8eac70b!2sFirstcry%20Intellitots%20Preschool%20%26%20Daycare%20-%20Nizampet%2C%20Hyderabad!5e1!3m2!1sen!2sin!4v1751262726456!5m2!1sen!2sin",
@@ -65,6 +69,10 @@ export const schools: School[] = [
       { q: "Where is FirstCry Intellitots Botanical Garden located?", a: "The centre is located in Kondapur, Hyderabad, near the Botanical Garden." },
       { q: "What makes the Botanical Garden centre unique?", a: "Its nature-inspired curriculum blends outdoor exploration and sensory learning with structured early education." },
       { q: "Who manages this preschool?", a: "It is managed by Himabindu Rudrapaka as part of her network of FirstCry Intellitots centres in Hyderabad." },
+      { q: "What are the timings at FirstCry Intellitots Botanical Garden?", a: "The centre offers morning preschool sessions along with half-day and full-day daycare options. Exact timings vary — please contact the centre for the current schedule." },
+      { q: "How do I apply for admission?", a: "Send an admission enquiry from this page, schedule a visit, choose a program, and the team will guide you through enrolment." },
+      { q: "What are the fees?", a: "Fees depend on the program (playgroup, preschool, or daycare). Please contact the centre for the current fee structure." },
+      { q: "What is the child-to-teacher ratio?", a: "The centre maintains low child-to-teacher ratios so every child receives individual attention in a safe, supervised environment." },
     ],
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.046735984192!2d78.34269607412564!3d17.46078410068864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ab6bb0dfa9%3A0x9bb3f3d15d5ec43a!2sFirstcry%20Intellitots%20Preschool%20%26%20Daycare%20-%20Botanical%20Garden%2C%20Hyderabad!5e1!3m2!1sen!2sin!4v1751262791527!5m2!1sen!2sin",
@@ -89,6 +97,10 @@ export const schools: School[] = [
       { q: "What programs are offered at HMT Hills?", a: "Playgroup, nursery, junior and senior kindergarten, daycare, and phonics & reading enrichment." },
       { q: "Is personalised learning available?", a: "Yes. The centre focuses on personalised learning and holistic development for every child." },
       { q: "Who leads FirstCry Intellitots HMT Hills?", a: "The centre is managed by Himabindu Rudrapaka, an award-winning early childhood educator." },
+      { q: "What are the timings at FirstCry Intellitots HMT Hills?", a: "The centre offers morning preschool sessions along with half-day and full-day daycare options. Exact timings vary — please contact the centre for the current schedule." },
+      { q: "How do I apply for admission?", a: "Send an admission enquiry from this page, schedule a visit, choose a program, and the team will guide you through enrolment." },
+      { q: "What are the fees?", a: "Fees depend on the program (playgroup, preschool, or daycare). Please contact the centre for the current fee structure." },
+      { q: "What is the child-to-teacher ratio?", a: "The centre maintains low child-to-teacher ratios so every child receives individual attention in a safe, supervised environment." },
     ],
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.3269759079008!2d78.38953007412665!3d17.50266219947611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb912e793fc399%3A0x33e9688581bdd44a!2sFirstcry%20Intellitots%20Preschool%20%26%20Daycare%20-%20HMT%20Hills%2C%20Hyderabad!5e1!3m2!1sen!2sin!4v1751262847512!5m2!1sen!2sin",
@@ -113,6 +125,10 @@ export const schools: School[] = [
       { q: "When did FirstCry Intellitots Mayuri Nagar open?", a: "The Mayuri Nagar centre opened in 2024 as the newest addition to the network." },
       { q: "Where is it located?", a: "It is located in Miyapur, Hyderabad." },
       { q: "Who manages the Mayuri Nagar centre?", a: "Like the other centres, it is managed by Himabindu Rudrapaka." },
+      { q: "What are the timings at FirstCry Intellitots Mayuri Nagar?", a: "The centre offers morning preschool sessions along with half-day and full-day daycare options. Exact timings vary — please contact the centre for the current schedule." },
+      { q: "How do I apply for admission?", a: "Send an admission enquiry from this page, schedule a visit, choose a program, and the team will guide you through enrolment." },
+      { q: "What are the fees?", a: "Fees depend on the program (playgroup, preschool, or daycare). Please contact the centre for the current fee structure." },
+      { q: "What is the child-to-teacher ratio?", a: "The centre maintains low child-to-teacher ratios so every child receives individual attention in a safe, supervised environment." },
     ],
     mapEmbed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12505.354516477679!2d78.35961558384648!3d17.501984948962672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000f41caeb%3A0x1d6aac4c1f6021a7!2sFirstcry%20Intellitots%20Preschool%20%26%20Daycare%20-%20Mayurinagar%20New%2C%20Hyderabad!5e1!3m2!1sen!2sin!4v1751262878132!5m2!1sen!2sin",
